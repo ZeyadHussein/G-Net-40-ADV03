@@ -172,6 +172,40 @@
             #endregion
 
 
+            #region Exercise 5: Print Queue Simulator
+            /*
+            Simulate a printer queue
+
+            Enqueue 5 documents
+            Print queue and count
+            Peek next document
+            Dequeue all
+            TryDequeue on empty queue
+            */
+
+            //Queue<string> queue = new Queue<string>();
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+
+            //Console.WriteLine("Queue: " + string.Join(", ", queue));
+            //Console.WriteLine("Count: " + queue.Count);
+
+            //Console.WriteLine("Next: " + queue.Peek());
+
+            //while (queue.Count > 0)
+            //{
+            //    Console.WriteLine("Printing: " + queue.Dequeue());
+            //}
+
+            //bool success = queue.TryDequeue(out string doc);
+            //Console.WriteLine("TryDequeue success? " + success);
+            #endregion
+
+
+
 
         }
     }
