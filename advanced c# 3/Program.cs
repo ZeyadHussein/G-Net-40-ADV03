@@ -134,6 +134,44 @@
             #endregion
 
 
+            #region Exercise 4: Unique Email Validator
+            /*
+            Use HashSet with case-insensitive comparer
+
+            Add emails and print count
+            Create Set A and B and perform operations
+            Check subset
+            */
+
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            //{
+            //    "ahmed@test.com",
+            //    "AHMED@test.com",
+            //    "sara@test.com",
+            //    "Sara@Test.Com"
+            //};
+
+            //Console.WriteLine("Email Count: " + emails.Count);
+
+            //HashSet<int> A = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> B = new HashSet<int> { 4, 5, 6, 7, 8 };
+
+            //var union = new HashSet<int>(A);
+            //union.UnionWith(B);
+            //Console.WriteLine("Union: " + string.Join(", ", union));
+
+            //var intersect = new HashSet<int>(A);
+            //intersect.IntersectWith(B);
+            //Console.WriteLine("Intersect: " + string.Join(", ", intersect));
+
+            //var except = new HashSet<int>(A);
+            //except.ExceptWith(B);
+            //Console.WriteLine("Except: " + string.Join(", ", except));
+
+            //Console.WriteLine("Is {1,2} subset of A? " + new HashSet<int> { 1, 2 }.IsSubsetOf(A));
+            #endregion
+
+
 
         }
     }
