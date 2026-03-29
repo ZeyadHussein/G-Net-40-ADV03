@@ -45,6 +45,50 @@
             //Console.WriteLine("Formatted: " + string.Join(", ", gradeStrings));
             #endregion
 
+            #region Exercise 2: Leaderboard
+            /*
+            Create a leaderboard that automatically sorts players by score.
+
+            Add: 500="Ahmed", 200="Sara", 800="Ali", 350="Mona"
+            Print all entries (they should be sorted by score automatically)
+            Access the first key and first value 
+            Check if score 500 exists
+            Safely get the player with score 999
+            Remove the player with score 200 and print the updated list
+            */
+
+            //code answer
+
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>()
+            //{
+            //    {500, "Ahmed"},
+            //    {200, "Sara"},
+            //    {800, "Ali"},
+            //    {350, "Mona"}
+            //};
+
+            //foreach (var item in leaderboard)
+            //    Console.WriteLine($"{item.Key} => {item.Value}");
+
+            //Console.WriteLine("First Key: " + leaderboard.First().Key);
+            //Console.WriteLine("First Value: " + leaderboard.First().Value);
+
+            //Console.WriteLine("Contains 500? " + leaderboard.ContainsKey(500));
+
+            //if (leaderboard.TryGetValue(999, out string player))
+            //    Console.WriteLine(player);
+            //else
+            //    Console.WriteLine("Score 999 not found");
+
+            //leaderboard.Remove(200);
+
+            //Console.WriteLine("After removal:");
+            //foreach (var item in leaderboard)
+            //    Console.WriteLine($"{item.Key} => {item.Value}");
+            #endregion
+
+
+
         }
     }
 }
