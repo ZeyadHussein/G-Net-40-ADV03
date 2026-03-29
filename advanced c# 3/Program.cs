@@ -87,6 +87,52 @@
             //    Console.WriteLine($"{item.Key} => {item.Value}");
             #endregion
 
+            #region Exercise 3: Phone Book
+            /*
+            Build a phone book application.
+
+            Create a Collection with 4 contacts (name → phone number)
+            Add a new contact using [] syntax (add or update)
+            Try adding a duplicate using .Add() — catch the exception
+            Try adding a duplicate using .TryAdd()
+            Search for a contact that doesn’t exist
+            Get a contact with fallback "Not Found"
+            Print all Keys and Values
+            */
+
+
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>()
+            //{
+            //    {"Ahmed", "111"},
+            //    {"Sara", "222"},
+            //    {"Ali", "333"},
+            //    {"Mona", "444"}
+            //};
+
+            //phoneBook["John"] = "555"; 
+
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "999");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Error: " + ex.Message);
+            //}
+
+            //bool added = phoneBook.TryAdd("Ahmed", "999");
+            //Console.WriteLine("TryAdd success? " + added);
+
+            //if (!phoneBook.ContainsKey("Omar"))
+            //    Console.WriteLine("Omar not found");
+
+            //string result = phoneBook.ContainsKey("Omar") ? phoneBook["Omar"] : "Not Found";
+            //Console.WriteLine(result);
+
+            //Console.WriteLine("Keys: " + string.Join(", ", phoneBook.Keys));
+            //Console.WriteLine("Values: " + string.Join(", ", phoneBook.Values));
+            #endregion
+
 
 
         }
