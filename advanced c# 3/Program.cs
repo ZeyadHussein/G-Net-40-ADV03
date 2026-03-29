@@ -205,6 +205,40 @@
             #endregion
 
 
+            #region Exercise 6: Browser History (Undo)
+            /*
+            Simulate browser history using Stack
+
+            Push 5 URLs
+            Peek current page
+            Pop 3 times
+            Print current page
+            TryPop on empty stack
+            */
+
+            //Stack<string> history = new Stack<string>();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+
+            //Console.WriteLine("Current: " + history.Peek());
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Leaving: " + history.Pop());
+            //}
+
+            //Console.WriteLine("Current after back: " + history.Peek());
+
+            
+            //history.Clear();
+            //bool popped = history.TryPop(out string page);
+            //Console.WriteLine("TryPop success? " + popped);
+            #endregion
+
+
 
 
         }
